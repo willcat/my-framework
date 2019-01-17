@@ -1,0 +1,21 @@
+{
+    "name": "administrator/my-framework",
+    "require": {
+        "predis/predis": "^1.1",
+        "clue/buzz-react": "^2.5",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^4.2",
+        "react/filesystem": "^0.1.2"
+    },
+    "authors": [
+        {
+            "name": "willcat",
+            "email": "yunxiuhe@catchingmedia.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
